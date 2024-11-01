@@ -1,0 +1,205 @@
+/* credit for foundations of CSS: https://robsobers.com/sticky-notes-with-css/ */
+@import url('https://fonts.googleapis.com/css?family=Allura|Architects+Daughter|Damion|Homemade+Apple|Indie+Flower|Patrick+Hand+SC|Permanent+Marker|Reenie+Beanie|Rock+Salt|Sacramento|Shadows+Into+Light+Two');
+#notes body {
+    background: #fdfd96;
+}
+
+#notes div.noteall {
+    width: 50%;
+    min-height: 200px;
+    padding: 15px 15px 15px 15px;
+    -webkit-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    -moz-box-shadow: 0 2px 12px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 2px #000;
+}
+
+#notes div.notewidget {
+    width: 84%;
+    min-height: 200px;
+    padding: 5% 5% 5% 5%;
+    -webkit-box-shadow: 1px 2px 2px rgba(0,0,0,.5);
+    -moz-box-shadow: 1px 2px 2px rgba(0,0,0,.5);
+    box-shadow: 1px 2px 2px #000;
+    margin: 4px auto 12px auto;
+}
+
+#notes div.noteright {
+    float: right;
+    margin:2px 2px 10px 20px;
+}
+
+#notes div.tiltright {
+    -webkit-transform: rotate(.5deg);
+    -moz-transform: rotate(.5deg);
+    -o-transform: rotate(.5deg);
+}
+
+#notes div.noteleft {
+    float: left;
+    margin:2px 20px 10px 2px;
+}
+
+#notes div.tiltleft {
+    -webkit-transform: rotate(-.5deg);
+    -moz-transform: rotate(-.5deg);
+    -o-transform: rotate(-.5deg);
+}
+
+#notes div.yellownote {
+    background: #fdfd96;
+}
+
+#notes div.pinknote {
+    background: #ffd1dc;
+}
+
+#notes div.greennote {
+    background: #77dd77;
+}
+
+#notes div.bluenote {
+    background: #aec6cf;
+}
+
+#notes p.notehead {
+    float: top;
+}
+
+#notes p.notebody-allura {
+    font-family: 'Allura', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-architects-daughter {
+    font-family: 'Architects Daughter', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-damion {
+    font-family: 'Damion', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-homemade-apple {
+    font-family: 'Homemade Apple', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-indie-flower {
+    font-family: 'Indie Flower', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-patrick-hand-sc {
+    font-family: 'Patrick Hand SC', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-permanent-marker {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-reenie-beanie {
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-rock-salt {
+    font-family: 'Rock Salt', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-sacramento {
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+}
+#notes p.notebody-shadows-into-light-two {
+    font-family: 'Shadows Into Light Two', cursive;
+    font-size: 20px;
+}
+
+#notes p.notefoot {
+    float: bottom;
+    font-size: 14px;
+}
+/*
+#notes div:nth-child(even) {
+    -webkit-transform: rotate(.5deg);
+    -moz-transform: rotate(.5deg);
+    -o-transform: rotate(.5deg);
+}
+*/
+
+/*
+#notes div.kiln
+{
+    background-image: url(https://vinland.tech/wp-content/uploads/2017/06/post_panels.gif);
+}
+*/
+
+#notes div p {
+    text-align: center;
+    /* font: normal normal normal 20px/28px Helvetica, Arial, sans-serif; */
+    color: #000;
+    /* text-shadow: black 1px 1px 0px; */
+    overflow:hidden;
+}
+/*
+#notes div.noteright::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 115px;
+    top: -15px;
+    width: 25%;
+    height: 25px;
+    z-index: 2;
+    background-color: rgba(243,245,228,0.5);
+    border: 2px solid rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    box-shadow: 2px 2px 2px #000;
+    -webkit-transform: rotate(-6deg);
+    -moz-transform: rotate(-6deg);
+    -o-transform: rotate(-6deg);
+}
+
+#notes div.noteleft::before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 115px;
+    top: -15px;
+    width: 25%;
+    height: 25px;
+    z-index: 2;
+    background-color: rgba(243,245,228,0.5);
+    border: 2px solid rgba(255,255,255,0.5);
+    -webkit-box-shadow: 0 0 5px #888;
+    -moz-box-shadow: 0 0 5px #888;
+    box-shadow: 2px 2px 2px #000;
+    -webkit-transform: rotate(6deg);
+    -moz-transform: rotate(6deg);
+    -o-transform: rotate(6deg);
+}
+*/
+.wpps-textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    resize: none;
+}
+
+.wpps-input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.wpps-select {
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+i.poststickies-icon {
+    background-image: url('../img/postStickyIcon.jpg');
+}
